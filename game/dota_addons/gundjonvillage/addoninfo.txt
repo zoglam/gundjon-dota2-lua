@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"maps"			"template_map"
+	"TeamCount" 		"2"   
+	"IsPlayable"		"1"
+	"PenaltiesEnabled"	"0"
+	"template_map"
+	{
+		"MaxPlayers"	"8"
+	}
+}

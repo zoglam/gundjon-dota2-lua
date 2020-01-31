@@ -1,0 +1,145 @@
+//------------------------------------------------------------
+// Роман
+//------------------------------------------------------------
+
+"DOTAAbilities"
+{	
+	// ## Skill 1
+	"roma_cry"
+	{
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"roma_cry.lua"
+		"AbilityType"				"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"
+		//"SpellImmunityType"			"SPELL_IMMUNITY_ENEMIES_YES"
+		//"FightRecapLevel"			"1"
+		"AbilityTextureName"			"cry"
+		"MaxLevel"				"4"
+		"AbilityCooldown"               	"45 45 40 30"
+		"AbilityManaCost"			"60 60 70 80"
+		"AbilityCastRange"			"1500"
+		"precache"
+		{
+			//"soundfile"			""
+			//"particle"			""
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"		"FIELD_FLOAT"
+				"cry_tick"		"0.2"
+			}
+			"02"
+			{
+				"var_type"		"FIELD_FLOAT"
+				"cry_strength"		"-5.0 -10.0 -20.0 -30.0"
+			}
+			"03"
+			{
+				"var_type"		"FIELD_INTEGER"
+				"cry_damage"		"5 7 9 15"
+			}
+			"04"
+			{
+				"var_type"		"FIELD_INTEGER"
+				"cry_duration"		"5.0 5.0 5.0 5.0"
+			}
+			"05"
+			{
+				"var_type"		"FIELD_FLOAT"
+				"cry_castTime"		"0.9"
+			}
+			"06"
+			{
+				"var_type"		"FIELD_INTEGER"
+				"cry_radius"		"1500"
+			}
+		}
+	}
+	// ## Skill 2
+	"roma_teleport"
+	{
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"roma_teleport.lua"
+		"AbilityType"				"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_POINT"
+		"AbilityTextureName"			"teleport"
+		"MaxLevel"				"4"
+		"AbilityCastRange"			"900 1000 1100 1300"
+		"AbilityCooldown"               	"17 14 11 7"
+		"AbilityManaCost"			"70"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"		"FIELD_FLOAT"
+				"teleport_castTime"	"0.9"
+			}
+		}
+	}
+	// ## Skill 3
+	"roma_play_guitar"
+	{
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"roma_play_guitar.lua"
+		"AbilityType"				"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"
+		"AbilityTextureName"			"play_guitar"
+		"MaxLevel"				"4"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"		"FIELD_INTEGER"
+				"guitar_bonus_damage"	"2 4 8 12"
+			}
+			"02"
+			{
+				"var_type"		"FIELD_INTEGER"
+				"guitar_attack_count"	"7 12 17 20"
+			}
+			"03"
+			{
+				"var_type"		"FIELD_FLOAT"
+				"guitar_tick"		"5.0"
+			}
+		}
+	}
+	// ## Skill 4
+	"roma_overclock_memory"
+	{
+		"BaseClass"				"ability_lua"
+		"ScriptFile"				"roma_overclock_memory.lua"
+		"AbilityType"				"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"overclock_memory"
+		"MaxLevel"				"3"		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"		"FIELD_INTEGER"
+				"attackSpeed"		"60 120 220"
+			}
+			"02"
+			{
+				"var_type"		"FIELD_INTEGER"
+				"moveSpeed"		"50 90 160"
+			}
+			"03"
+			{
+				"var_type"		"FIELD_INTEGER"
+				"lostDamage"		"25"
+			}
+			"04"
+			{
+				"var_type"		"FIELD_INTEGER"
+				"chance"		"40"
+			}
+		}
+	}
+
+}

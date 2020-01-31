@@ -1,0 +1,48 @@
+//------------------------------------------------------------
+// Роман
+//------------------------------------------------------------
+
+"DOTAHeroes"
+{
+	"npc_dota_hero_roma"
+	{
+		"override_hero"				"npc_dota_hero_abaddon"			// Hero to override
+		"Ability1"				"roma_cry"
+		"Ability2"				"roma_teleport"	
+		"Ability3"				"roma_play_guitar"
+		"Ability6"				"roma_overclock_memory"
+
+		// General Override
+		//-------------------------------------------------------------------------------------------------------------
+		//"Portrait"				"portrait_riven"
+		//"Role"				"Carry,Nuker,Disabler,Pusher,Escape"
+		//"Rolelevels"				"2,2,1,1,1"
+
+		// Attributes
+		//-------------------------------------------------------------------------------------------------------------
+		//"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+		//"AttributeBaseStrength"		"19"
+		//"AttributeStrengthGain"		"2.300000"
+		//"AttributeBaseAgility"		"22"
+		//"AttributeAgilityGain"		"2.500000"
+		//"AttributeBaseIntelligence"		"18"
+		//"AttributeIntelligenceGain"		"2.000000"
+
+		// Base Stats
+		//-------------------------------------------------------------------------------------------------------------
+		//"ArmorPhysical"			"1"
+		//"MagicalResistance"			"25"
+		//"MovementSpeed"			"295"
+		//"StatusHealthRegen"			"0.0"
+		//"VisionDaytimeRange"			"1800"
+		//"VisionNighttimeRange"		"800"
+
+		// Attack
+		//-------------------------------------------------------------------------------------------------------------
+		//"AttackCapabilities"			"DOTA_UNIT_CAP_RANGED_ATTACK"
+		//"AttackDamageMin"			"28"
+		//"AttackDamageMax"			"36"
+		//"AttackRate"				"1.800000"
+		//"AttackRange"				"500"
+	}
+}

@@ -1,0 +1,58 @@
+"lang"
+{
+	"Language"		"Russian"
+	"Tokens"
+	{		
+		"addon_game_name"						"Гунджон"
+
+		//------------------------------------------------------------
+		// Rename Teams
+		//------------------------------------------------------------
+		"DOTA_GoodGuys" 						"Деревня Джоджой"
+  		"DOTA_BadGuys" 							"Аршляндия"
+
+		//------------------------------------------------------------
+		// Rename Heroes
+		//------------------------------------------------------------
+		"npc_dota_hero_abaddon"						"Роман"
+		"npc_dota_hero_axe"						"Мишень"
+		
+		//------------------------------------------------------------
+		// Роман
+		//------------------------------------------------------------
+		// ## Skill 1
+		"DOTA_Tooltip_ability_roma_cry"					"Плач Романа"
+		"DOTA_Tooltip_ability_roma_cry_Description"			"Накладывает дебаф на противника с переодической активацией эффектов в %cry_tick% секунды. Наносит переодический урон и снижает силу задетым врагам. В конце применения телепортирует в случайное место в радиусе %cry_radius%"
+		"DOTA_Tooltip_ability_roma_cry_Lore"				"На некоторое время пропадает из всех соц. сетей."
+		"DOTA_Tooltip_ability_roma_cry_cry_strength"			"CИЛА:"
+		"DOTA_Tooltip_ability_roma_cry_cry_damage"			"УРОН:"
+		"DOTA_Tooltip_ability_roma_cry_cry_duration"			"ДЛИТЕЛЬНОСТЬ ДЕБАФА:"
+		"DOTA_Tooltip_ability_roma_cry_cry_castTime"			"ВРЕМЯ ПРИМЕНЕНИЯ:"
+        	"DOTA_Tooltip_ability_roma_cry_cry_radius"			"ДАЛЬНОСТЬ:"
+		"DOTA_Tooltip_modifier_roma_cry"				"Плач Романа"
+		"DOTA_Tooltip_modifier_roma_cry_Description"			"Вы потеряли %dMODIFIER_PROPERTY_EXTRA_STRENGTH_BONUS% силы и получаете урон"
+		// ## Skill 2
+		"DOTA_Tooltip_ability_roma_teleport"				"Уйти к Коле"
+		"DOTA_Tooltip_ability_roma_teleport_Description"		"Телепортирует на расстояние с задержкой применения способности. При отмене способности затраченные ресурсы возвращаются."
+		"DOTA_Tooltip_ability_roma_teleport_Lore"			"Уходит играть с Колей в OSU или смотреть аниме."
+        	"DOTA_Tooltip_ability_roma_teleport_teleport_castTime"		"ВРЕМЯ ПРИМЕНЕНИЯ:"
+        	"DOTA_Tooltip_ability_roma_teleport_AbilityCastRange"		"ДАЛЬНОСТЬ:"
+		// ## Skill 3
+		"DOTA_Tooltip_ability_roma_play_guitar"				"Сыграть на гитаре"
+		"DOTA_Tooltip_ability_roma_play_guitar_Description"		"Играет на гитаре."
+		"DOTA_Tooltip_ability_roma_play_guitar_Lore"			"Хотите прикол услышать?"
+		"DOTA_Tooltip_ability_roma_play_guitar_guitar_bonus_damage"	"ДОП. УРОН ЗА СТАК:"
+		"DOTA_Tooltip_ability_roma_play_guitar_guitar_attack_count"	"МАКС. СТАКОВ:"
+		"DOTA_Tooltip_ability_roma_play_guitar_guitar_tick"		"ВРЕМЯ ЖИЗНИ СТАКА:"
+		"DOTA_Tooltip_modifier_roma_play_guitar"			"Сыграть на гитаре"
+		"DOTA_Tooltip_modifier_roma_play_guitar_Description"		"Следующая атака нанесет %dMODIFIER_PROPERTY_PROCATTACK_BONUS_DAMAGE_PURE% доп. урона"
+		// ## Skill 4
+		"DOTA_Tooltip_ability_roma_overclock_memory"			"Разогнать ОЗУ"
+		"DOTA_Tooltip_ability_roma_overclock_memory_Description"	"Пассивная способность, дающая бонусы к скорости атаки и передвижения героя. При улучшении есть шанс %chance%%% потерять навсегда %lostDamage% урона с руки."
+		"DOTA_Tooltip_ability_roma_overclock_memory_Lore"		"Теперь разгонять оперативную память стало мемом."
+		"DOTA_Tooltip_ability_roma_overclock_memory_attackSpeed"	"СКОРОСТЬ АТАКИ:"
+		"DOTA_Tooltip_ability_roma_overclock_memory_moveSpeed"		"%СКОРОСТЬ ПЕРЕДВИЖЕНИЯ:"
+		"DOTA_Tooltip_modifier_roma_overclock_memory"			"Разгон ОЗУ"
+		"DOTA_Tooltip_modifier_roma_overclock_memory_Description"	"Увеличивает скор. атаки на %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT% и передвижения на %dMODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT%%%. Потеряно %dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% урона"
+	}
+}
