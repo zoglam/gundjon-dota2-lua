@@ -32,7 +32,8 @@ function modifier_roma_play_guitar:OnAttackLanded( param )
                         self:OnIntervalThink()
                 end
 
-                if self:GetStackCount() >= self.guitar_attack_count then
+                if self:GetStackCount() >= self.guitar_attack_count then                        
+                        EmitSoundOn( "gundjonvillage.guitar", self:GetCaster()) -- Звук проиграть
                         self:SetStackCount(0)
                 else
                         self:IncrementStackCount()

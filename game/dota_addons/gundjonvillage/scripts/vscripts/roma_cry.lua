@@ -18,7 +18,7 @@ function roma_cry:OnChannelFinish( bInterrupted )
 		local nFXIndex = ParticleManager:CreateParticle(animationCryOnCaster, PATTACH_ABSORIGIN, caster )
 		ParticleManager:SetParticleControlEnt( nFXIndex, 0, caster, PATTACH_ABSORIGIN, "attach_origin", casterPosition, true )
 		ParticleManager:ReleaseParticleIndex( nFXIndex )
-		EmitSoundOn( "Hero_Abaddon.Attack.Ring", caster ) -- Звук
+		EmitSoundOn( "gundjonvillage.cry", caster ) -- Звук проиграть
 		FindClearRandomPositionAroundUnit(caster, caster, cry_radius) -- Random телепорт героя
 	end
 end
